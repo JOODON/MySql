@@ -8,7 +8,7 @@ public class SQLMaster {
         String viewDatabase="SHOW database";
         //데이터 베이스 사용하기
         String useDatabase="USE database";
-
+        //데이터 베이스 삭제
         String deleteDatabase="DROP DATABASE database";
         //테이블 전체 보기
         String seleteAll="SELETE * FROM dataBase";
@@ -27,5 +27,9 @@ public class SQLMaster {
         String adColL="ALTER TABLE databasetable ADD (자료형) FIRST";
         //컬럼 원하는 위치에 추가하기
         String AddAfter="ALTER TABLE databasetable ADD (자료형) AFTRER (앞 컬럼 네임)";
+        //notNull붙이기
+        String notNull="value type() NOT NULL";
+        //val추가
+        String addVal="INSERT INTO table_name VALUES (1105, '테스트', '대한민국')";
     }
 }
