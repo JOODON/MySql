@@ -5,9 +5,11 @@ public class SQLMaster {
         //데이터 베이스 생성
         String create="CREATE DATABASE database";
         //데이터 베이스 만든거 보기
-        String viewDatabase="SHOW DATABASES";
+        String viewDatabase="SHOW database";
         //데이터 베이스 사용하기
-        String useDatabase="USE DATABASE";
+        String useDatabase="USE database";
+
+        String deleteDatabase="DROP DATABASE database";
         //테이블 전체 보기
         String seleteAll="SELETE * FROM dataBase";
         //데이터 베이스 주석
