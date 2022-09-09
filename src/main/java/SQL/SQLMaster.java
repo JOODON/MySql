@@ -32,6 +32,5 @@ public class SQLMaster {
         //val추가
         String addVal="INSERT INTO table_name VALUES (1105, '테스트', '대한민국')";
 
-        String seeTable="SELECT * FROM database";
     }
 }
